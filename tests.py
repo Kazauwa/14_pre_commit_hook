@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import unittest
 
 from quadratic_equation import get_roots
