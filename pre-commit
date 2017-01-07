@@ -1,3 +1,10 @@
 #!/bin/bash
 
 ./tests.py
+
+exit_code=$?
+if [ "$exit_code" -eq 1 ] 
+    then tput setaf 1; echo "Commit aborted! Some of the tests have failed."; tput sgr0;
+fi
+
+exit $exit_code
