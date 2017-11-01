@@ -7,7 +7,7 @@ Pre-commit hook which run tests for Quadratic Equations Solver
 First of all, make sure that shebang line in **tests.py** is pointing to your python interpreter.
 
 ### Linux & Mac OS X
-Specify venv interpreter or use systems' default. This can be found with 
+Specify venv interpreter or use system's default. This can be found with 
 
 `$ which python`
 
